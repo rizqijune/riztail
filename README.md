@@ -46,7 +46,7 @@ Generate build files for production server
 yarn prod or yarn build // or pnpm prod
 ```
 
-All dev files are present in `src` folder. The build version can be found in `build` folder after running `yarn build` command.
+All dev files are present in `dev` folder. The build version can be found in `build` folder after running `yarn build` command.
 
 ## Configuration
 
