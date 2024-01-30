@@ -79,13 +79,13 @@ const plugins = {
 
 ## Todo
 
-* [ ] Live Preview
+* [x] Live Preview
 * [ ] Auto copy build to `bl-theme`
 * [ ] Remove comment in prod
 * [ ] Make it more responsive
 * [ ] Easy personalized with config
 * [ ] All in one command
-* [ ] Use API instead of manual inser php code
+* [ ] Use API instead of manual insert php code
 
 ## Made with
 
