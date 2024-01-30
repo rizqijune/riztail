@@ -31,19 +31,19 @@ You can use pnpm instead of yarn. npm is not recomended.
 Install dev dependencies
 
 ```sh
-yarn // or npm install
+yarn // or pnpm install
 ```
 
-~~Start development server with live preview~~ ***dont use dev yet***
+Start development server with live preview
 
 ```sh
-yarn dev // or npm run dev
+yarn dev // or pnpm dev
 ```
 
 Generate build files for production server
 
 ```sh
-yarn prod or yarn build // or npm run prod
+yarn prod or yarn build // or pnpm prod
 ```
 
 All dev files are present in `src` folder. The build version can be found in `build` folder after running `yarn build` command.
