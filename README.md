@@ -43,7 +43,7 @@ yarn dev // or pnpm dev
 Generate build files for production server
 
 ```sh
-yarn prod or yarn build // or pnpm prod
+yarn build // or pnpm build
 ```
 
 All dev files are present in `dev` folder. The build version can be found in `build` folder after running `yarn build` command.
