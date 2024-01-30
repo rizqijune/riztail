@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply bg-violet-500 dark:bg-pink-500 rounded-xl px-6 py-3 text-xs font-bold hover:bg-violet-600 hover:dark:bg-pink-600 uppercase;
+  }
+  .btn-gradient {
+    @apply rounded-xl text-center align-middle bg-gradient-to-br from-violet-400 to-violet-600 border border-violet-400 dark:from-pink-400 dark:to-pink-600 dark:border-pink-400;
+  }
+  .btn-gradient:hover {
+    @apply bg-gradient-to-br from-violet-500 to-violet-700 dark:from-pink-500 dark:to-pink-700;
+  }
+  .btn-gradient:active {
+    @apply bg-gradient-to-br from-violet-600 to-violet-800 dark:from-pink-600 dark:to-pink-800;
+  }
+.btn-primary-circle{
+  @apply p-2 rounded-full hover:bg-neutral-200 dark:hover:bg-neutral-700 focus:outline-none focus:ring focus:ring-violet-500 dark:focus:ring-pink-500;
+}
+.icon{
+  @apply transition-all duration-300 ease-in-out h-6 w-6 fill-htm dark:fill-pth group-hover:fill-violet-500 dark:group-hover:fill-pink-600;
+}
+.icon .line
+{
+  @apply stroke-violet-500 dark:stroke-pink-500 group-hover:stroke-violet-500 dark:group-hover:stroke-pink-600;
+}
+.bg-gradient-color
+{
+  @apply bg-gradient-to-br from-violet-400 to-violet-600 dark:from-pink-400 dark:to-pink-600;
+}
+}
+@layer utilities{
+  a {
+    @apply underline text-violet-600 hover:text-rose-600 visited:text-violet-950;
+  }
+  .dark a {
+    @apply underline text-accent-1 hover:text-rose-300 visited:text-purple-600;
+  }
+}
+
+@layer base {
+  :root {
+    --color-primary: 258deg 90% 66%;
+    --color-secondary: 251deg 91% 95%;
+    --color-accent-1: 252deg 95% 85%;
+    --color-accent-2: 333deg 71% 51%;
+    --color-pth: 0deg 0% 98%;
+    --color-htm: 0deg 0% 15%;
+    --color-danger: 350deg 89% 60%;
+    --color-warning: 21deg 90% 48%;
+    --color-good: 160deg 84% 39%;
+    --color-info: 199deg 86% 48%;
+  }
+}

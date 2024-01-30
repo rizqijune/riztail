@@ -1,0 +1,54 @@
+{
+  "name": "bludit-tailwind-gulp",
+  "version": "1.0",
+  "description": "A bludit TailwindCSS theme with Gulp 4",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "@tailwindcss/container-queries": "^0.1.1",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.10",
+    "autoprefixer": "^10.4.13",
+    "browser-sync": "^2.27.10",
+    "cssnano": "^5.1.15",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-file-include": "^2.3.0",
+    "gulp-filter": "6.0.0",
+    "gulp-imagemin": "7.1.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-purgecss": "^4.1.3",
+    "gulp-replace": "^1.1.4",
+    "gulp-sass": "^5.1.0",
+    "gulp-terser": "^2.1.0",
+    "imagemin-pngquant": "^9.0.2",
+    "log-symbols": "^4.1.0",
+    "postcss": "^8.4.21",
+    "prettier": "^3.1.1",
+    "prettier-plugin-tailwindcss": "^0.5.11",
+    "sass": "^1.58.1",
+    "tailwindcss": "^3.4.1"
+  },
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp prod",
+    "prod": "gulp prod"
+  },
+  "keywords": [
+    "gulp",
+    "gulp4",
+    "tailwind",
+    "tailwindcss",
+    "sass",
+    "bludit-tailwind",
+    "bl-theme",
+    "bludit-theme",
+    "bludit"
+  ],
+  "author": "rizqijune",
+  "license": "ISC",
+  "volta": {
+    "node": "21.5.0"
+  }
+}
