@@ -17,7 +17,7 @@
 		<?php Theme::plugins('siteHead'); ?>
 	</head>
 
-	<body class="antialiased selection:bg-violet-300 selection:text-htm text-htm bg-pth dark:text-pth dark:bg-htm">
+	<body class="antialiased text-htm bg-pth dark:text-pth dark:bg-htm">
 		<!-- Load Bludit Plugins: Site Body Begin -->
 		<?php Theme::plugins('siteBodyBegin'); ?>
 		<div class="flex h-screen overflow-y-hidden" x-data="setup()" x-init="$refs.loading.classList.add('hidden')">

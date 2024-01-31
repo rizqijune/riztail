@@ -18,17 +18,7 @@
 .btn-primary-circle{
   @apply p-2 rounded-full hover:bg-neutral-200 dark:hover:bg-neutral-700 focus:outline-none focus:ring focus:ring-violet-500 dark:focus:ring-pink-500;
 }
-.icon{
-  @apply transition-all duration-300 ease-in-out h-6 w-6 fill-htm dark:fill-pth group-hover:fill-violet-500 dark:group-hover:fill-pink-600;
-}
-.icon .line
-{
-  @apply stroke-violet-500 dark:stroke-pink-500 group-hover:stroke-violet-500 dark:group-hover:stroke-pink-600;
-}
-.bg-gradient-color
-{
-  @apply bg-gradient-to-br from-violet-400 to-violet-600 dark:from-pink-400 dark:to-pink-600;
-}
+
 }
 @layer utilities{
   a {
@@ -36,6 +26,21 @@
   }
   .dark a {
     @apply underline text-accent-1 hover:text-rose-300 visited:text-purple-600;
+  }
+  .icon{
+    @apply transition-all duration-300 ease-in-out h-6 w-6 fill-htm dark:fill-pth group-hover:fill-violet-500 dark:group-hover:fill-pink-600;
+  }
+  .bg-gradient-color
+  {
+    @apply bg-gradient-to-br from-violet-400 to-violet-600 dark:from-pink-400 dark:to-pink-600;
+  }
+  .line
+  {
+    @apply stroke-violet-500 dark:stroke-pink-500 group-hover:stroke-violet-500 dark:group-hover:stroke-pink-600;
+  }
+  .group-text-menu
+  {
+    @apply group-hover:text-violet-500 dark:group-hover:text-pink-500
   }
 }
 
