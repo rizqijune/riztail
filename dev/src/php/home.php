@@ -27,10 +27,17 @@
 			</a>
 			<div class="pointer-events-none">
 				<!-- Creation date -->
+				<?php if ($themePlugin->dateFormat() == 'relative') : ?>
 				<span class="text-sm text-neutral-400 dark:text-neutral-200">
+					<?php echo $page->relativeTime(); ?>
+					</i><?php echo $L->get(' Read time') . ': ' . $page->readingTime(); ?>
+				</span>
+				<?php elseif ($themePlugin->dateFormat() == 'absolute') : ?>
+					<span class="text-sm text-neutral-400 dark:text-neutral-200">
 					<?php echo $page->date(); ?>
 					</i><?php echo $L->get(' Read time') . ': ' . $page->readingTime(); ?>
 				</span>
+				<?php endif ?>
 				<p class="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
 					<!-- Breaked content -->
 					<?php echo $page->contentBreak(); ?>

@@ -1,8 +1,8 @@
 {
 	"theme-data":
 	{
-		"name": "PNYA Dev",
-		"description": ""
+		"name": "Riztail",
+		"description": "Yet another theme with Tailwind CSS. But without CDN!"
 	},
 	"related-pages": "Related pages",
 	"minutes": "minutes",
