@@ -1,4 +1,4 @@
-<aside x-transition:enter="transition transform duration-300"
+<aside x-cloak x-transition:enter="transition transform duration-300"
   x-transition:enter-start="-translate-x-full opacity-30  ease-in"
   x-transition:enter-end="translate-x-0 opacity-100 ease-out" x-transition:leave="transition transform duration-300"
   x-transition:leave-start="translate-x-0 opacity-100 ease-out"

@@ -17,7 +17,7 @@
     x-transition:enter-end="translate-x-0 opacity-100 ease-out" x-transition:leave="transition transform duration-300"
     x-transition:leave-start="translate-x-0 opacity-100 ease-out"
     x-transition:leave-end="translate-x-full opacity-0 ease-in"
-    class="fixed inset-y-0 right-0 flex flex-col bg-pth dark:bg-htm w-80">
+    class="fixed inset-y-0 right-0 z-50 flex flex-col bg-pth dark:bg-htm w-80">
     <div class="flex items-center justify-between flex-shrink-0 p-2">
         <h6 class="p-2 text-lg">
             <?php if ($WHERE_AM_I == 'page' && !$page->isStatic() && !$url->notFound()): ?>
