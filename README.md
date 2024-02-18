@@ -3,6 +3,7 @@
 Made with **[Gulp with TailwindCSS v3 Starter Kit](https://github.com/lazymozek/gulp-with-tailwindcss)** with some modification and package update. Still working in progress.
 
 <img src="https://i.ibb.co/w7QKHpt/Screenshot-from-2024-02-18-15-25-33.png" alt="Screenshot" style="zoom:50%;" />
+<img src="https://i.ibb.co/H4wsJ86/Screenshot-from-2024-02-18-15-28-31.png" alt="Screenshot" style="zoom:50%;" />
 
 ## Features - Theme
 
