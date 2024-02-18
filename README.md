@@ -4,7 +4,7 @@ Made with **[Gulp with TailwindCSS v3 Starter Kit](https://github.com/lazymozek/
 
 ## Features - Theme
 
-- Plugin integrated
+- [Plugin integrated](https://github.com/rizqijune/riztail-extras-bludit-plugin)
 - Template Support
 - Dark Mode support
 - PostCSS
@@ -52,7 +52,7 @@ yarn dev // or pnpm dev
 ~~Generate build files for production server~~
 
 ```sh
-yarn build // or pnpm build
+~~yarn build // or pnpm build~~
 ```
 
 All dev files are present in `dev` folder. The build version can be found in `build` folder after running `yarn build` command.
