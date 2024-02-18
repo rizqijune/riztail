@@ -1,20 +1,28 @@
-# PNYA - A Tailwind Bludit Theme
+# Riztail - A Tailwind Bludit Theme
 
 Made with **[Gulp with TailwindCSS v3 Starter Kit](https://github.com/lazymozek/gulp-with-tailwindcss)** with some modification and package update. Still working in progress.
 
-## Features
+## Features - Theme
+
+- Plugin integrated
+- Dark Mode support
+- PostCSS
+- Shop support using category
+- Responsive
+- No kernel editing needed
+
+## Features - Dev
 
 * Easy configuration using `config.js`
 * Live reload on file/assets changes using `browser-sync`
 * SCSS support
 * Alpine.JS (Hardcode)
-* Dark Mode support
-* Minification of styles and scripts on production build
-* Minification of images on production build using `imagemin`
+* ~~Minification of styles and scripts on production build~~
+* ~~Minification of images on production build using `imagemin`~~
 * Includes following tailwindcss plugins (can be disabled/enabled with `config.js`)
-    * [@tailwindcss/forms](https://github.com/tailwindlabs/tailwindcss-forms)
-    * [@tailwindcss/typography](https://tailwindcss.com/docs/typography-plugin)
-    * [@tailwindcss/container-queries](https://github.com/tailwindlabs/tailwindcss-container-queries)
+  * [@tailwindcss/forms](https://github.com/tailwindlabs/tailwindcss-forms)
+  * [@tailwindcss/typography](https://tailwindcss.com/docs/typography-plugin)
+  * [@tailwindcss/container-queries](https://github.com/tailwindlabs/tailwindcss-container-queries)
 
 ***
 
@@ -40,7 +48,7 @@ Start development server with live preview
 yarn dev // or pnpm dev
 ```
 
-Generate build files for production server
+~~Generate build files for production server~~
 
 ```sh
 yarn build // or pnpm build
@@ -86,6 +94,7 @@ const plugins = {
 * [ ] Easy personalized with config
 * [ ] All in one command
 * [ ] Use API instead of manual insert php code
+* [ ] Reactjs
 
 ## Made with
 

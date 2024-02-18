@@ -1,11 +1,11 @@
 <!-- Main footer -->
 <footer class="flex items-center justify-between flex-shrink-0 p-4 border-t max-h-14">
-    <div>PNYA &copy; 2020</div>
+    <div>PNYA &copy; 2023 - <?php echo date("Y");?></div>
     <div class="text-sm">
       Made by
       <a
-        class="text-blue-400 underline"
-        href="https://github.com/Kamona-WD"
+        class="!text-htm dark:!text-pth"
+        href="https://instagram.com/rizqijune"
         target="_blank"
         rel="noopener noreferrer"
         >rizqijune</a
@@ -14,7 +14,7 @@
     <div>
       <!-- Github svg -->
       <a
-        href="https://github.com/Kamona-WD/starter-dashboard-layout"
+        href="https://github.com/rizqijune"
         target="_blank"
         class="flex items-center space-x-1"
       >

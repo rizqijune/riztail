@@ -30,7 +30,11 @@
 			<main class="container flex-1 max-h-full p-5 mx-auto overflow-hidden overflow-y-scroll">
 				<!-- Content -->
 				<?php if ($WHERE_AM_I == 'page') {
-					include(THEME_DIR_PHP . 'page.php');
+					if ($page->template()) {
+						include(THEME_DIR_PHP . 'template/'. $page->template() . '.php');
+					} else {
+						include(THEME_DIR_PHP . 'page.php');
+					}
 				} else {
 					include(THEME_DIR_PHP . 'home.php');
 				} ?>
@@ -44,21 +48,20 @@
 	<?php Theme::plugins('siteBodyEnd'); ?>
 	<!-- Load js -->
 	<?php echo Theme::js('js/scripts.js'); ?>
-	<?php if ($WHERE_AM_I == 'home'): ?>
-		<?php if ($themePlugin->featured() == 'true'): ?>
-			<?php echo Theme::js('js/splide.min.js'); ?>
-			<script>
-  document.addEventListener( 'DOMContentLoaded', function() {
-    var splide = new Splide( '.splide',{
-		type    : 'loop',
-  autoplay: 'play',
-  perPage : 1,
-	} );
-	
-    splide.mount();
-  } );
-</script>
-		<?php endif; ?>
+	<?php if ($themePlugin->featured() == 'true'): ?>
+		<?php echo Theme::js('js/splide.min.js'); ?>
+		<script>
+			document.addEventListener('DOMContentLoaded', function () {
+				var splide = new Splide('.splide', {
+					type: 'loop',
+					autoplay: 'play',
+					perPage: 1,
+					pagination: false,
+				});
+
+				splide.mount();
+			});
+		</script>
 	<?php endif; ?>
 
 	<!-- Set to false if its an external js -->
