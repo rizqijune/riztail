@@ -5,6 +5,7 @@ Made with **[Gulp with TailwindCSS v3 Starter Kit](https://github.com/lazymozek/
 ## Features - Theme
 
 - Plugin integrated
+- Template Support
 - Dark Mode support
 - PostCSS
 - Shop support using category
