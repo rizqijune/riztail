@@ -7,7 +7,7 @@ Any question? ask me : instagram.com/rizqijune
 
 ## Features - Theme
 
-- [Plugin integrated](https://github.com/rizqijune/riztail-extras-bludit-plugin)
+- [Plugin integrated](https://github.com/rizqijune/riztail-extras-bludit-plugin) (Soon..)
 - Template support
 - Dark Mode support
 - Slider featured post
