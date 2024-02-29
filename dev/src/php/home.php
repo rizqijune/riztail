@@ -3,6 +3,7 @@
 	<?php include(THEME_DIR_PHP . 'components/404.php'); ?>
 	</div>
 	<?php elseif($WHERE_AM_I=='home'):?>
+<div class=""><h2 class="max-w-lg mt-6 mb-6 font-sans text-3xl font-bold tracking-tight sm:mt-0 sm:text-4xl sm:leading-none"><?php echo $L->get('featured-post') ?></h2></div>
 <?php echo $themePlugin->showFeatured();?>
 <?php if ($themePlugin->showCategories() == 'true'): ?>
 	<?php include(THEME_DIR_PHP . 'components/navigations/categories.php'); ?>

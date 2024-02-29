@@ -48,7 +48,7 @@
 	<?php Theme::plugins('siteBodyEnd'); ?>
 	<!-- Load js -->
 	<?php echo Theme::js('js/scripts.js'); ?>
-	<?php if ($themePlugin->featured() == 'true'): ?>
+	<?php if ($themePlugin->featured() == 'true' && $WHERE_AM_I == 'home'): ?>
 		<?php echo Theme::js('js/splide.min.js'); ?>
 		<script>
 			document.addEventListener('DOMContentLoaded', function () {
@@ -63,7 +63,6 @@
 			});
 		</script>
 	<?php endif; ?>
-
 	<!-- Set to false if its an external js -->
 </body>
 

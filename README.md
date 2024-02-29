@@ -4,17 +4,16 @@ Made with **[Gulp with TailwindCSS v3 Starter Kit](https://github.com/lazymozek/
 Any question? ask me : instagram.com/rizqijune
 
 <img src="https://i.ibb.co/w7QKHpt/Screenshot-from-2024-02-18-15-25-33.png" alt="Screenshot" style="zoom:50%;" />
-<img src="https://i.ibb.co/H4wsJ86/Screenshot-from-2024-02-18-15-28-31.png" alt="Screenshot" style="zoom:50%;" />
 
 ## Features - Theme
 
 - [Plugin integrated](https://github.com/rizqijune/riztail-extras-bludit-plugin)
-- Template Support
+- Template support
 - Dark Mode support
-- PostCSS
-- Shop support using category
-- Responsive
-- No kernel editing needed
+- Slider featured post
+- Shop support using category (Display only)
+- Responsive (Mobile first)
+- No kernel editing
 
 ## Features - Dev
 
@@ -93,19 +92,37 @@ const plugins = {
 ## Todo
 
 * [x] Live Preview
-* [ ] Auto copy build to `bl-theme`
+* [ ] Lazy load or get rid of needing for image (Dynamic SVG)
+* [ ] Auto copy build to `bl-theme` in prod command
 * [ ] Remove comment in prod
 * [ ] Make it more responsive
 * [ ] Easy personalized with config
-* [ ] All in one command
-* [ ] Use API instead of manual insert php code
-* [ ] Reactjs
+* [ ] Native shop support or external shop (snipcart)
+* [ ] Compare product (display only)
+* [ ] Use API instead of manual insert php code (Bludit 4x stable*)
+* [ ] Reactjs (Bludit 4x stable*)
+* [ ] Refactor code
+
+## Bug
+
+- Won't work with external cover image.
 
 ## Made with
 
-* Based on **[Gulp with TailwindCSS v3 Starter Kit](https://github.com/lazymozek/gulp-with-tailwindcss)**
-* Components from [Starter Dashboard Layout](https://github.com/Kamona-WD/starter-dashboard-layout)
+* Components from [Starter Dashboard Layout][2]
+* Template from [Gulp With TailwindCSS Starter Kit][1]
 * Bludit 3.15.0
+
+## Donation
+
+| Location  |   Gateway   |   Address    | Reward |
+| :-------: | :---------: | :----------: | :----: |
+|  Global   |    Near     | rizqijune.tg | Soon.. |
+|  Global   | Binance Pay |  188663740   | Soon.. |
+|  Global   |     EVM     |    Soon..    | Soon.. |
+| Indonesia | Gopay, OVO  | 08992969966  | Soon.. |
+
+
 
 ## License
 

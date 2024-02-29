@@ -1,10 +1,17 @@
 <div class="grid grid-cols-1 gap-10 mt-8 md:grid-cols-2 lg:grid-cols-3 md:gap-8 md:mt-16">
-	<?php $pageNumber = 1;
-	$numberOfItems = 5;
-	$onlyPublished = true;
-	$items = $pages->getList($pageNumber, $numberOfItems, $onlyPublished);
-	foreach ($items as $key): ?>
-		<?php $page = buildPage($key); ?>
+<?php
+    $pageNumber = 1;
+    $numberOfItems = 5;
+    $onlyPublished = true;
+    $items = $pages->getList($pageNumber, $numberOfItems, $onlyPublished);
+    foreach ($items as $key):
+        $page = buildPage($key);
+
+        // Skip posts with category containing "shop"
+        if (strpos(strtolower($page->category()), 'shop') !== false) {
+            continue;
+        }
+        ?>
 		<!-- Post -->
 		<div
 			class="relative flex flex-col border w-80 max-h-[450px] rounded-xl bg-pth bg-clip-border hover:shadow-md hover:shadow-accent-1 dark:border-neutral-700 dark:bg-htm dark:shadow-md dark:hover:shadow-accent-2/60">
