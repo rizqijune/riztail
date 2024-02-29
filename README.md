@@ -113,6 +113,11 @@ const plugins = {
 * Template from [Gulp With TailwindCSS Starter Kit][1]
 * Bludit 3.15.0
 
+[2]: https://github.com/lazymozek/gulp-with-tailwindcss	"Gulp With TailwindCSS Starter Kit"
+[2]: https://github.com/Kamona-WD/starter-dashboard-layout	"Starter Dashboard Layout"
+
+
+
 ## Donation
 
 | Location  |   Gateway   |   Address    | Reward |
